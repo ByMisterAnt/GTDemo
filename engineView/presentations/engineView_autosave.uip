@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIP version="7" >
+	<Project >
+		<ProjectSettings author="" company="" presentationWidth="1280" presentationHeight="720" maintainAspect="False" preferKtx="False" flipCompressedTextures="False" >
+			<CustomColors count="16" >#ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff</CustomColors>
+		</ProjectSettings>
+		<BufferData >
+			<ImageBuffer sourcepath="../tile_texture.jpg" hasTransparency="False" hasOpaquePixels="True" />
+		</BufferData>
+		<Graph >
+			<Scene id="Scene_u31287" backgroundcolor="0.682353 0.682353 0.682353 1" >
+				<Layer id="Layer_u63013" variants="" >
+					<Camera id="Camera_u9770" />
+					<Light id="Light_u38424" />
+					<Group id="engineStand_u47510" variants="" >
+						<Model id="Ground_u4284" variants="" >
+							<ReferencedMaterial id="tile_texture_u12271" />
+						</Model>
+						<Group id="preFinalEngine_u14474" variants="" importid="__import__root__" >
+							<Model id="hull_turbine.004_u1799" variants="" name="hull_turbine.004" importid="hull_turbine.004" orientation="Right Handed" position="0 1.66016 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/hull_turbine.004.mesh" >
+								<ReferencedMaterial id="metal-bright_u50443" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright" />
+								<ReferencedMaterial id="metal-mid_u23620" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid" />
+								<ReferencedMaterial id="metal-dark_u34513" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark" />
+								<ReferencedMaterial id="plastic-cone-black_u59839" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-cone-black" />
+								<ReferencedMaterial id="plastic-grey_u59594" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-grey" />
+								<ReferencedMaterial id="accent-yellow_u37008" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow" />
+							</Model>
+							<Model id="grid_turbine.007_u42026" variants="" name="grid_turbine.007" importid="grid_turbine.007" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/grid_turbine.007.mesh" >
+								<ReferencedMaterial id="metal-mid_u34903" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0004" />
+								<ReferencedMaterial id="metal-dark_u29061" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0004" />
+								<ReferencedMaterial id="accent-yellow_u36198" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0003" />
+							</Model>
+							<Model id="pipes_turbine.009_u28471" variants="" name="pipes_turbine.009" importid="pipes_turbine.009" orientation="Right Handed" position="0 0 0" rotation="8.86793e-06 0 0" rotationorder="XYZr" scale="95 95 100" sourcepath="../models/preFinalEngine/meshes/pipes_turbine.009.mesh" >
+								<ReferencedMaterial id="metal-bright_u21321" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0003" />
+								<ReferencedMaterial id="metal-mid_u4021" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0007" />
+								<ReferencedMaterial id="metal-dark_u59224" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0007" />
+							</Model>
+							<Model id="mount_turbine.014_u19280" variants="" name="mount_turbine.014" importid="mount_turbine.014" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/mount_turbine.014.mesh" >
+								<ReferencedMaterial id="metal-bright_u5673" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0006" />
+								<ReferencedMaterial id="metal-mid_u32633" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0010" />
+								<ReferencedMaterial id="metal-dark_u2777" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0009" />
+							</Model>
+							<Model id="plates_turbine.016_u43204" variants="" name="plates_turbine.016" importid="plates_turbine.016" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/plates_turbine.016.mesh" >
+								<ReferencedMaterial id="metal-bright_u3826" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0009" />
+								<ReferencedMaterial id="metal-mid_u22819" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0014" />
+								<ReferencedMaterial id="metal-dark_u44772" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0012" />
+								<ReferencedMaterial id="accent-yellow_u25160" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0006" />
+							</Model>
+							<Model id="blades_turbine.003_u55091" variants="" name="blades_turbine.003" importid="blades_turbine.003" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/blades_turbine.003.mesh" >
+								<ReferencedMaterial id="metal-bright_u24044" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0011" />
+								<ReferencedMaterial id="metal-mid_u1756" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0018" />
+								<ReferencedMaterial id="accent-yellow_u49723" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0008" />
+							</Model>
+							<Model id="canister_turbine.011_u51181" variants="" name="canister_turbine.011" importid="canister_turbine.011" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/canister_turbine.011.mesh" >
+								<ReferencedMaterial id="metal-bright_u3707" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0013" />
+								<ReferencedMaterial id="metal-mid_u7471" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0020" />
+								<ReferencedMaterial id="accent-yellow_u42562" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0010" />
+							</Model>
+							<Model id="Body_u56750" variants="" name="Body" importid="Body" orientation="Right Handed" position="-185.676 55.404 0" rotation="0 -90 9.33467e-06" rotationorder="XYZr" scale="0.5 0.5 1" sourcepath="../models/preFinalEngine/meshes/Body.mesh" >
+								<ReferencedMaterial id="РђРІС‚РѕР»Р°Рє_u63783" importfile="../models/preFinalEngine/preFinalEngine.import" importid="РђРІС‚РѕР»Р°Рє" />
+							</Model>
+						</Group>
+					</Group>
+					<Group id="engineStand4_u48901" variants="" >
+						<Model id="Ground_u54582" variants="" >
+							<ReferencedMaterial id="tile_texture_u11147" />
+						</Model>
+						<Group id="preFinalEngine_u63067" variants="" importid="__import__root__" >
+							<Model id="hull_turbine.004_u6815" variants="" name="hull_turbine.004" importid="hull_turbine.004" orientation="Right Handed" position="0 1.66016 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/hull_turbine.004.mesh" >
+								<ReferencedMaterial id="metal-bright_u3640" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright" />
+								<ReferencedMaterial id="metal-mid_u34407" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid" />
+								<ReferencedMaterial id="metal-dark_u7623" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark" />
+								<ReferencedMaterial id="plastic-cone-black_u54978" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-cone-black" />
+								<ReferencedMaterial id="plastic-grey_u46368" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-grey" />
+								<ReferencedMaterial id="accent-yellow_u31175" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow" />
+							</Model>
+							<Model id="grid_turbine.007_u36001" variants="" name="grid_turbine.007" importid="grid_turbine.007" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/grid_turbine.007.mesh" >
+								<ReferencedMaterial id="metal-mid_u48278" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0004" />
+								<ReferencedMaterial id="metal-dark_u36397" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0004" />
+								<ReferencedMaterial id="accent-yellow_u1953" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0003" />
+							</Model>
+							<Model id="pipes_turbine.009_u27936" variants="" name="pipes_turbine.009" importid="pipes_turbine.009" orientation="Right Handed" position="0 0 0" rotation="8.86793e-06 0 0" rotationorder="XYZr" scale="95 95 100" sourcepath="../models/preFinalEngine/meshes/pipes_turbine.009.mesh" >
+								<ReferencedMaterial id="metal-bright_u30453" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0003" />
+								<ReferencedMaterial id="metal-mid_u18672" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0007" />
+								<ReferencedMaterial id="metal-dark_u35881" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0007" />
+							</Model>
+							<Model id="mount_turbine.014_u18040" variants="" name="mount_turbine.014" importid="mount_turbine.014" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/mount_turbine.014.mesh" >
+								<ReferencedMaterial id="metal-bright_u63517" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0006" />
+								<ReferencedMaterial id="metal-mid_u61136" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0010" />
+								<ReferencedMaterial id="metal-dark_u57443" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0009" />
+							</Model>
+							<Model id="plates_turbine.016_u29049" variants="" name="plates_turbine.016" importid="plates_turbine.016" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/plates_turbine.016.mesh" >
+								<ReferencedMaterial id="metal-bright_u46971" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0009" />
+								<ReferencedMaterial id="metal-mid_u31783" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0014" />
+								<ReferencedMaterial id="metal-dark_u47887" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0012" />
+								<ReferencedMaterial id="accent-yellow_u31065" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0006" />
+							</Model>
+							<Model id="blades_turbine.003_u64057" variants="" name="blades_turbine.003" importid="blades_turbine.003" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/blades_turbine.003.mesh" >
+								<ReferencedMaterial id="metal-bright_u41082" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0011" />
+								<ReferencedMaterial id="metal-mid_u39942" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0018" />
+								<ReferencedMaterial id="accent-yellow_u23021" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0008" />
+							</Model>
+							<Model id="canister_turbine.011_u61380" variants="" name="canister_turbine.011" importid="canister_turbine.011" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/canister_turbine.011.mesh" >
+								<ReferencedMaterial id="metal-bright_u56957" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0013" />
+								<ReferencedMaterial id="metal-mid_u52809" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0020" />
+								<ReferencedMaterial id="accent-yellow_u32612" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0010" />
+							</Model>
+							<Model id="Body_u19858" variants="" name="Body" importid="Body" orientation="Right Handed" position="-185.676 55.404 0" rotation="0 -90 9.33467e-06" rotationorder="XYZr" scale="0.5 0.5 1" sourcepath="../models/preFinalEngine/meshes/Body.mesh" >
+								<ReferencedMaterial id="РђРІС‚РѕР»Р°Рє_u1687" importfile="../models/preFinalEngine/preFinalEngine.import" importid="РђРІС‚РѕР»Р°Рє" />
+							</Model>
+						</Group>
+					</Group>
+					<Group id="engineStand2_u44000" variants="" >
+						<Model id="Ground_u32795" variants="" >
+							<ReferencedMaterial id="tile_texture_u6282" />
+						</Model>
+						<Group id="preFinalEngine_u45735" variants="" importid="__import__root__" >
+							<Model id="hull_turbine.004_u55829" variants="" name="hull_turbine.004" importid="hull_turbine.004" orientation="Right Handed" position="0 1.66016 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/hull_turbine.004.mesh" >
+								<ReferencedMaterial id="metal-bright_u45720" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright" />
+								<ReferencedMaterial id="metal-mid_u21532" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid" />
+								<ReferencedMaterial id="metal-dark_u3729" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark" />
+								<ReferencedMaterial id="plastic-cone-black_u50329" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-cone-black" />
+								<ReferencedMaterial id="plastic-grey_u52276" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-grey" />
+								<ReferencedMaterial id="accent-yellow_u9743" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow" />
+							</Model>
+							<Model id="grid_turbine.007_u40647" variants="" name="grid_turbine.007" importid="grid_turbine.007" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/grid_turbine.007.mesh" >
+								<ReferencedMaterial id="metal-mid_u36794" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0004" />
+								<ReferencedMaterial id="metal-dark_u60266" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0004" />
+								<ReferencedMaterial id="accent-yellow_u15181" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0003" />
+							</Model>
+							<Model id="pipes_turbine.009_u15410" variants="" name="pipes_turbine.009" importid="pipes_turbine.009" orientation="Right Handed" position="0 0 0" rotation="8.86793e-06 0 0" rotationorder="XYZr" scale="95 95 100" sourcepath="../models/preFinalEngine/meshes/pipes_turbine.009.mesh" >
+								<ReferencedMaterial id="metal-bright_u30645" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0003" />
+								<ReferencedMaterial id="metal-mid_u34196" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0007" />
+								<ReferencedMaterial id="metal-dark_u60905" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0007" />
+							</Model>
+							<Model id="mount_turbine.014_u52816" variants="" name="mount_turbine.014" importid="mount_turbine.014" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/mount_turbine.014.mesh" >
+								<ReferencedMaterial id="metal-bright_u2280" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0006" />
+								<ReferencedMaterial id="metal-mid_u23070" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0010" />
+								<ReferencedMaterial id="metal-dark_u42812" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0009" />
+							</Model>
+							<Model id="plates_turbine.016_u10231" variants="" name="plates_turbine.016" importid="plates_turbine.016" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/plates_turbine.016.mesh" >
+								<ReferencedMaterial id="metal-bright_u61545" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0009" />
+								<ReferencedMaterial id="metal-mid_u58893" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0014" />
+								<ReferencedMaterial id="metal-dark_u21261" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0012" />
+								<ReferencedMaterial id="accent-yellow_u31418" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0006" />
+							</Model>
+							<Model id="blades_turbine.003_u12159" variants="" name="blades_turbine.003" importid="blades_turbine.003" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/blades_turbine.003.mesh" >
+								<ReferencedMaterial id="metal-bright_u14693" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0011" />
+								<ReferencedMaterial id="metal-mid_u5128" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0018" />
+								<ReferencedMaterial id="accent-yellow_u47489" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0008" />
+							</Model>
+							<Model id="canister_turbine.011_u43968" variants="" name="canister_turbine.011" importid="canister_turbine.011" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/canister_turbine.011.mesh" >
+								<ReferencedMaterial id="metal-bright_u18532" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0013" />
+								<ReferencedMaterial id="metal-mid_u1248" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0020" />
+								<ReferencedMaterial id="accent-yellow_u58348" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0010" />
+							</Model>
+							<Model id="Body_u42229" variants="" name="Body" importid="Body" orientation="Right Handed" position="-185.676 55.404 0" rotation="0 -90 9.33467e-06" rotationorder="XYZr" scale="0.5 0.5 1" sourcepath="../models/preFinalEngine/meshes/Body.mesh" >
+								<ReferencedMaterial id="РђРІС‚РѕР»Р°Рє_u30694" importfile="../models/preFinalEngine/preFinalEngine.import" importid="РђРІС‚РѕР»Р°Рє" />
+							</Model>
+						</Group>
+					</Group>
+					<Group id="engineStand3_u4620" variants="" >
+						<Model id="Ground_u63165" variants="" >
+							<ReferencedMaterial id="tile_texture_u56468" />
+						</Model>
+						<Group id="preFinalEngine_u36256" variants="" importid="__import__root__" >
+							<Model id="hull_turbine.004_u2679" variants="" name="hull_turbine.004" importid="hull_turbine.004" orientation="Right Handed" position="0 1.66016 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/hull_turbine.004.mesh" >
+								<ReferencedMaterial id="metal-bright_u36884" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright" />
+								<ReferencedMaterial id="metal-mid_u61553" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid" />
+								<ReferencedMaterial id="metal-dark_u2552" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark" />
+								<ReferencedMaterial id="plastic-cone-black_u5357" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-cone-black" />
+								<ReferencedMaterial id="plastic-grey_u42392" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-grey" />
+								<ReferencedMaterial id="accent-yellow_u16527" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow" />
+							</Model>
+							<Model id="grid_turbine.007_u22931" variants="" name="grid_turbine.007" importid="grid_turbine.007" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/grid_turbine.007.mesh" >
+								<ReferencedMaterial id="metal-mid_u10115" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0004" />
+								<ReferencedMaterial id="metal-dark_u36889" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0004" />
+								<ReferencedMaterial id="accent-yellow_u5091" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0003" />
+							</Model>
+							<Model id="pipes_turbine.009_u16434" variants="" name="pipes_turbine.009" importid="pipes_turbine.009" orientation="Right Handed" position="0 0 0" rotation="8.86793e-06 0 0" rotationorder="XYZr" scale="95 95 100" sourcepath="../models/preFinalEngine/meshes/pipes_turbine.009.mesh" >
+								<ReferencedMaterial id="metal-bright_u36096" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0003" />
+								<ReferencedMaterial id="metal-mid_u41079" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0007" />
+								<ReferencedMaterial id="metal-dark_u56414" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0007" />
+							</Model>
+							<Model id="mount_turbine.014_u44131" variants="" name="mount_turbine.014" importid="mount_turbine.014" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/mount_turbine.014.mesh" >
+								<ReferencedMaterial id="metal-bright_u47142" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0006" />
+								<ReferencedMaterial id="metal-mid_u8784" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0010" />
+								<ReferencedMaterial id="metal-dark_u38405" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0009" />
+							</Model>
+							<Model id="plates_turbine.016_u42837" variants="" name="plates_turbine.016" importid="plates_turbine.016" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/plates_turbine.016.mesh" >
+								<ReferencedMaterial id="metal-bright_u21638" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0009" />
+								<ReferencedMaterial id="metal-mid_u27132" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0014" />
+								<ReferencedMaterial id="metal-dark_u38433" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark_0012" />
+								<ReferencedMaterial id="accent-yellow_u36480" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0006" />
+							</Model>
+							<Model id="blades_turbine.003_u47184" variants="" name="blades_turbine.003" importid="blades_turbine.003" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/blades_turbine.003.mesh" >
+								<ReferencedMaterial id="metal-bright_u3305" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0011" />
+								<ReferencedMaterial id="metal-mid_u62063" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0018" />
+								<ReferencedMaterial id="accent-yellow_u47664" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0008" />
+							</Model>
+							<Model id="canister_turbine.011_u2454" variants="" name="canister_turbine.011" importid="canister_turbine.011" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/preFinalEngine/meshes/canister_turbine.011.mesh" >
+								<ReferencedMaterial id="metal-bright_u11822" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright_0013" />
+								<ReferencedMaterial id="metal-mid_u34669" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid_0020" />
+								<ReferencedMaterial id="accent-yellow_u57915" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow_0010" />
+							</Model>
+							<Model id="Body_u38031" variants="" name="Body" importid="Body" orientation="Right Handed" position="-185.676 55.404 0" rotation="0 -90 9.33467e-06" rotationorder="XYZr" scale="0.5 0.5 1" sourcepath="../models/preFinalEngine/meshes/Body.mesh" >
+								<ReferencedMaterial id="РђРІС‚РѕР»Р°Рє_u21089" importfile="../models/preFinalEngine/preFinalEngine.import" importid="РђРІС‚РѕР»Р°Рє" />
+							</Model>
+						</Group>
+					</Group>
+				</Layer>
+				<Material id="__Container_u53801" >
+					<Material id="materials/tile_texture_u42907" >
+						<Image id="materials/tile_texture_u42907_diffusemap_u48943" />
+					</Material>
+					<Material id="materials/metal-bright_u38764" name="metal-bright" blendmode="Normal" diffuse="0.8 0.743666 0.66253 1" emissivepower="0" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-bright" opacity="100" specularamount="0" specularroughness="77.2641" />
+					<Material id="materials/metal-mid_u16542" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-mid" opacity="100" specularamount="0" specularroughness="53.8756" />
+					<Material id="materials/metal-dark_u52141" name="metal-dark" blendmode="Normal" diffuse="0.031064 0.031064 0.031064 1" emissivepower="0" importfile="../models/preFinalEngine/preFinalEngine.import" importid="metal-dark" opacity="100" specularamount="0" specularroughness="53.29" />
+					<Material id="materials/plastic-cone-black_u54096" name="plastic-cone-black" blendmode="Normal" diffuse="0.002531 0.002531 0.002531 1" emissivepower="0" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-cone-black" opacity="100" specularamount="0" specularroughness="69.9504" />
+					<Material id="materials/plastic-grey_u14205" name="plastic-grey" blendmode="Normal" diffuse="0.230102 0.230102 0.230102 1" emissivepower="0" importfile="../models/preFinalEngine/preFinalEngine.import" importid="plastic-grey" opacity="100" specularamount="0" specularroughness="72.25" />
+					<Material id="materials/accent-yellow_u22791" name="accent-yellow" blendmode="Normal" diffuse="1 0.418302 0 1" emissivepower="0" importfile="../models/preFinalEngine/preFinalEngine.import" importid="accent-yellow" opacity="100" specularamount="0" specularroughness="73.96" />
+					<Material id="materials/РђРІС‚РѕР»Р°Рє_u45731" name="РђРІС‚РѕР»Р°Рє" blendmode="Normal" diffuse="0 0 0 1" emissivepower="0" importfile="../models/preFinalEngine/preFinalEngine.import" importid="РђРІС‚РѕР»Р°Рє" opacity="100" specularamount="0" specularroughness="100" />
+				</Material>
+			</Scene>
+		</Graph>
+		<Logic >
+			<State name="Master Slide" component="#Scene_u31287" >
+				<Add ref="#Layer_u63013" name="Layer" />
+				<Add ref="#Camera_u9770" name="Camera" position="0 233 -406" rotation="21 0 0" />
+				<Add ref="#Light_u38424" name="Light" lightambient="0.607843 0.607843 0.607843 1" position="-304.995 424.355 -228.443" rotation="111 161 0" scale="1 1 1" shdwbias="0.1" shdwfactor="100" shdwfilter="100" />
+				<Add ref="#__Container_u53801" name="__Container" />
+				<Add ref="#materials/tile_texture_u42907" name="materials/tile_texture" diffusemap="#materials/tile_texture_u42907_diffusemap_u48943" importfile="../tile_texture.jpg" importid="" />
+				<Add ref="#materials/tile_texture_u42907_diffusemap_u48943" name="diffusemap" importid="" sourcepath="../tile_texture.jpg" subpresentation="" />
+				<Add ref="#materials/metal-bright_u38764" name="materials/metal-bright" />
+				<Add ref="#materials/metal-mid_u16542" name="materials/metal-mid" />
+				<Add ref="#materials/metal-dark_u52141" name="materials/metal-dark" />
+				<Add ref="#materials/plastic-cone-black_u54096" name="materials/plastic-cone-black" />
+				<Add ref="#materials/plastic-grey_u14205" name="materials/plastic-grey" />
+				<Add ref="#materials/accent-yellow_u22791" name="materials/accent-yellow" />
+				<Add ref="#materials/РђРІС‚РѕР»Р°Рє_u45731" name="materials/РђРІС‚РѕР»Р°Рє" diffuse="0.533333 0.533333 0.533333 1" specularroughness="1" />
+				<State id="Scene-mainSlide_u42524" name="mainSlide" playmode="Stop at end" playthroughto="Next" >
+					<Set ref="#Layer_u63013" endtime="1033" />
+					<Set ref="#Camera_u9770" endtime="1033" />
+					<Set ref="#Light_u38424" endtime="1033" />
+					<Add ref="#engineStand_u47510" name="engineStand" controlledproperty="$standRot rotation" endtime="1033" />
+					<Add ref="#Ground_u4284" name="Ground" endtime="1033" rotation="90 0 0" scale="5 5 1" sourcepath="#Rectangle" />
+					<Add ref="#tile_texture_u12271" name="tile_texture" endtime="1033" referencedmaterial="#materials/tile_texture_u42907" sourcepath="../materials/tile_texture.materialdef" />
+					<Add ref="#preFinalEngine_u14474" name="preFinalEngine" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" position="0 91.2614 0" rotation="0 126.5 0" scale="0.7 0.7 0.7" sourcepath="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#hull_turbine.004_u1799" controlledproperty="$bodyPos position" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u50443" name="metal-bright" endtime="1033" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u23620" name="metal-mid" endtime="1033" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u34513" name="metal-dark" endtime="1033" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#plastic-cone-black_u59839" name="plastic-cone-black" endtime="1033" referencedmaterial="#materials/plastic-cone-black_u54096" sourcepath="../materials/plastic-cone-black.materialdef" />
+					<Add ref="#plastic-grey_u59594" name="plastic-grey" endtime="1033" referencedmaterial="#materials/plastic-grey_u14205" sourcepath="../materials/plastic-grey.materialdef" />
+					<Add ref="#accent-yellow_u37008" name="accent-yellow" endtime="1033" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#grid_turbine.007_u42026" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-mid_u34903" name="metal-mid" endtime="1033" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u29061" name="metal-dark" endtime="1033" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#accent-yellow_u36198" name="accent-yellow" endtime="1033" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#pipes_turbine.009_u28471" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u21321" name="metal-bright" endtime="1033" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u4021" name="metal-mid" endtime="1033" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u59224" name="metal-dark" endtime="1033" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#mount_turbine.014_u19280" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u5673" name="metal-bright" endtime="1033" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u32633" name="metal-mid" endtime="1033" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u2777" name="metal-dark" endtime="1033" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#plates_turbine.016_u43204" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u3826" name="metal-bright" endtime="1033" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u22819" name="metal-mid" endtime="1033" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u44772" name="metal-dark" endtime="1033" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#accent-yellow_u25160" name="accent-yellow" endtime="1033" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#blades_turbine.003_u55091" controlledproperty="$bladesRot rotation" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u24044" name="metal-bright" endtime="1033" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u1756" name="metal-mid" endtime="1033" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#accent-yellow_u49723" name="accent-yellow" endtime="1033" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#canister_turbine.011_u51181" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u3707" name="metal-bright" endtime="1033" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u7471" name="metal-mid" endtime="1033" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#accent-yellow_u42562" name="accent-yellow" endtime="1033" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#Body_u56750" controlledproperty="" endtime="1033" importfile="../models/preFinalEngine/preFinalEngine.import" scale="0.52 0.52 1" />
+					<Add ref="#РђРІС‚РѕР»Р°Рє_u63783" name="РђРІС‚РѕР»Р°Рє" endtime="1033" referencedmaterial="#materials/РђРІС‚РѕР»Р°Рє_u45731" sourcepath="../materials/РђРІС‚РѕР»Р°Рє.materialdef" />
+				</State>
+				<State id="Scene-disassembly_u36317" name="disassembly" playmode="Stop at end" playthroughto="Next" >
+					<Set ref="#Layer_u63013" endtime="4050" />
+					<Set ref="#Camera_u9770" endtime="4050" />
+					<Set ref="#Light_u38424" endtime="4050" />
+					<Add ref="#engineStand2_u44000" name="engineStand2" controlledproperty="$standRot rotation" endtime="4050" />
+					<Add ref="#Ground_u32795" name="Ground" endtime="4050" rotation="90 0 0" scale="5 5 1" sourcepath="#Rectangle" />
+					<Add ref="#tile_texture_u6282" name="tile_texture" endtime="4050" referencedmaterial="#materials/tile_texture_u42907" sourcepath="../materials/tile_texture.materialdef" />
+					<Add ref="#preFinalEngine_u45735" name="preFinalEngine" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" position="0 91.2614 0" rotation="0 126.5 0" scale="0.7 0.7 0.7" sourcepath="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#hull_turbine.004_u55829" name="hull_turbine.004" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u45720" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u21532" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u3729" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#plastic-cone-black_u50329" name="plastic-cone-black" endtime="4050" referencedmaterial="#materials/plastic-cone-black_u54096" sourcepath="../materials/plastic-cone-black.materialdef" />
+					<Add ref="#plastic-grey_u52276" name="plastic-grey" endtime="4050" referencedmaterial="#materials/plastic-grey_u14205" sourcepath="../materials/plastic-grey.materialdef" />
+					<Add ref="#accent-yellow_u9743" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#grid_turbine.007_u40647" name="grid_turbine.007" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="position.x" type="EaseInOut" >1 0 100 100 4.05 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >1 0 100 100 4.05 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >1 0 100 100 4.05 180 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-mid_u36794" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u60266" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#accent-yellow_u15181" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#pipes_turbine.009_u15410" name="pipes_turbine.009" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="position.x" type="EaseInOut" >1 0 100 100 4.05 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >1 0 100 100 4.05 180 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >1 0 100 100 4.05 0 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-bright_u30645" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u34196" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u60905" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#mount_turbine.014_u52816" name="mount_turbine.014" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u2280" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u23070" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u42812" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#plates_turbine.016_u10231" name="plates_turbine.016" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u61545" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u58893" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u21261" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#accent-yellow_u31418" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#blades_turbine.003_u12159" name="blades_turbine.003" controlledproperty="$bladesRot rotation" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="position.x" type="EaseInOut" >1 0 100 100 4.05 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >1 0 100 100 4.05 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >1 0 100 100 4.05 180 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-bright_u14693" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u5128" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#accent-yellow_u47489" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#canister_turbine.011_u43968" name="canister_turbine.011" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="position.x" type="EaseInOut" >1 0 100 100 4.05 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >1 0 100 100 4.05 180 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >1 0 100 100 4.05 0 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-bright_u18532" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u1248" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#accent-yellow_u58348" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#Body_u42229" name="Body" controlledproperty="$bodyPos position" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" scale="0.52 0.52 1" >
+						<AnimationTrack property="position.x" type="EaseInOut" >1.016 -185.676 100 100 4.05 -185.676 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >1.016 55.404 100 100 4.05 55.404 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >1.016 0 100 100 4.05 -280 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#РђРІС‚РѕР»Р°Рє_u30694" name="РђРІС‚РѕР»Р°Рє" endtime="4050" referencedmaterial="#materials/РђРІС‚РѕР»Р°Рє_u45731" sourcepath="../materials/РђРІС‚РѕР»Р°Рє.materialdef" />
+				</State>
+				<State id="Scene-assembly_u40371" name="assembly" playmode="Stop at end" playthroughto="Next" >
+					<Set ref="#Layer_u63013" endtime="4050" />
+					<Set ref="#Camera_u9770" endtime="4050" />
+					<Set ref="#Light_u38424" endtime="4050" />
+					<Add ref="#engineStand3_u4620" name="engineStand3" controlledproperty="$standRot rotation" endtime="4050" />
+					<Add ref="#Ground_u63165" name="Ground" endtime="4050" rotation="90 0 0" scale="5 5 1" sourcepath="#Rectangle" />
+					<Add ref="#tile_texture_u56468" name="tile_texture" endtime="4050" referencedmaterial="#materials/tile_texture_u42907" sourcepath="../materials/tile_texture.materialdef" />
+					<Add ref="#preFinalEngine_u36256" name="preFinalEngine" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" position="0 91.2614 0" rotation="0 126.5 0" scale="0.7 0.7 0.7" sourcepath="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#hull_turbine.004_u2679" name="hull_turbine.004" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u36884" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u61553" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u2552" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#plastic-cone-black_u5357" name="plastic-cone-black" endtime="4050" referencedmaterial="#materials/plastic-cone-black_u54096" sourcepath="../materials/plastic-cone-black.materialdef" />
+					<Add ref="#plastic-grey_u42392" name="plastic-grey" endtime="4050" referencedmaterial="#materials/plastic-grey_u14205" sourcepath="../materials/plastic-grey.materialdef" />
+					<Add ref="#accent-yellow_u16527" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#grid_turbine.007_u22931" name="grid_turbine.007" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="position.x" type="EaseInOut" >0 0 100 100 2.983 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >0 0 100 100 2.983 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >0 180 100 100 2.983 0 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-mid_u10115" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u36889" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#accent-yellow_u5091" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#pipes_turbine.009_u16434" name="pipes_turbine.009" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="position.x" type="EaseInOut" >0 0 100 100 2.983 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >0 180 100 100 2.983 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >0 0 100 100 2.983 0 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-bright_u36096" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u41079" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u56414" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#mount_turbine.014_u44131" name="mount_turbine.014" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u47142" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u8784" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u38405" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#plates_turbine.016_u42837" name="plates_turbine.016" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u21638" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u27132" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u38433" name="metal-dark" endtime="4050" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#accent-yellow_u36480" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#blades_turbine.003_u47184" name="blades_turbine.003" controlledproperty="$bladesRot rotation" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="position.x" type="EaseInOut" >0 0 100 100 2.966 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >0 0 100 100 2.966 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >0 180 100 100 2.966 0 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-bright_u3305" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u62063" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#accent-yellow_u47664" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#canister_turbine.011_u2454" name="canister_turbine.011" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="position.x" type="EaseInOut" >0 0 100 100 2.95 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >0 180 100 100 2.95 0 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >0 0 100 100 2.95 0 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-bright_u11822" name="metal-bright" endtime="4050" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u34669" name="metal-mid" endtime="4050" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#accent-yellow_u57915" name="accent-yellow" endtime="4050" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#Body_u38031" name="Body" controlledproperty="$bodyPos position" endtime="4050" importfile="../models/preFinalEngine/preFinalEngine.import" scale="0.52 0.52 1" >
+						<AnimationTrack property="position.x" type="EaseInOut" >0 -185.676 100 100 2.999 -185.676 100 100</AnimationTrack>
+						<AnimationTrack property="position.y" type="EaseInOut" >0 55.404 100 100 2.999 55.404 100 100</AnimationTrack>
+						<AnimationTrack property="position.z" type="EaseInOut" >0 -280 100 100 2.999 0 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#РђРІС‚РѕР»Р°Рє_u21089" name="РђРІС‚РѕР»Р°Рє" endtime="4050" referencedmaterial="#materials/РђРІС‚РѕР»Р°Рє_u45731" sourcepath="../materials/РђРІС‚РѕР»Р°Рє.materialdef" />
+				</State>
+				<State id="Scene-bladesRot_u49724" name="bladesRot" playmode="Stop at end" playthroughto="#Scene-mainSlide_u42524" >
+					<Set ref="#Layer_u63013" endtime="6433" />
+					<Set ref="#Camera_u9770" endtime="6433" />
+					<Set ref="#Light_u38424" endtime="6433" />
+					<Add ref="#engineStand4_u48901" name="engineStand4" controlledproperty="$standRot rotation" endtime="6433" />
+					<Add ref="#Ground_u54582" name="Ground" endtime="6433" rotation="90 0 0" scale="5 5 1" sourcepath="#Rectangle" />
+					<Add ref="#tile_texture_u11147" name="tile_texture" endtime="6433" referencedmaterial="#materials/tile_texture_u42907" sourcepath="../materials/tile_texture.materialdef" />
+					<Add ref="#preFinalEngine_u63067" name="preFinalEngine" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" position="0 91.2614 0" rotation="0 126.5 0" scale="0.7 0.7 0.7" sourcepath="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#hull_turbine.004_u6815" name="hull_turbine.004" controlledproperty="$bodyPos position" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u3640" name="metal-bright" endtime="6433" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u34407" name="metal-mid" endtime="6433" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u7623" name="metal-dark" endtime="6433" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#plastic-cone-black_u54978" name="plastic-cone-black" endtime="6433" referencedmaterial="#materials/plastic-cone-black_u54096" sourcepath="../materials/plastic-cone-black.materialdef" />
+					<Add ref="#plastic-grey_u46368" name="plastic-grey" endtime="6433" referencedmaterial="#materials/plastic-grey_u14205" sourcepath="../materials/plastic-grey.materialdef" />
+					<Add ref="#accent-yellow_u31175" name="accent-yellow" endtime="6433" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#grid_turbine.007_u36001" name="grid_turbine.007" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-mid_u48278" name="metal-mid" endtime="6433" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u36397" name="metal-dark" endtime="6433" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#accent-yellow_u1953" name="accent-yellow" endtime="6433" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#pipes_turbine.009_u27936" name="pipes_turbine.009" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u30453" name="metal-bright" endtime="6433" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u18672" name="metal-mid" endtime="6433" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u35881" name="metal-dark" endtime="6433" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#mount_turbine.014_u18040" name="mount_turbine.014" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u63517" name="metal-bright" endtime="6433" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u61136" name="metal-mid" endtime="6433" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u57443" name="metal-dark" endtime="6433" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#plates_turbine.016_u29049" name="plates_turbine.016" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u46971" name="metal-bright" endtime="6433" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u31783" name="metal-mid" endtime="6433" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#metal-dark_u47887" name="metal-dark" endtime="6433" referencedmaterial="#materials/metal-dark_u52141" sourcepath="../materials/metal-dark.materialdef" />
+					<Add ref="#accent-yellow_u31065" name="accent-yellow" endtime="6433" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#blades_turbine.003_u64057" name="blades_turbine.003" controlledproperty="$bladesRot rotation" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" >
+						<AnimationTrack property="rotation.x" type="EaseInOut" >0 9.33467e-06 100 100 1.231 720 100 100 1.282 0 100 100 5.016 10080 100 100 6.433 10280 100 100</AnimationTrack>
+						<AnimationTrack property="rotation.y" type="EaseInOut" >0 0 100 100 1.231 0 100 100 1.282 0 100 100 5.016 0 100 100 6.433 0 100 100</AnimationTrack>
+						<AnimationTrack property="rotation.z" type="EaseInOut" >0 0 100 100 1.231 0 100 100 1.282 0 100 100 5.016 0 100 100 6.433 0 100 100</AnimationTrack>
+					</Add>
+					<Add ref="#metal-bright_u41082" name="metal-bright" endtime="6433" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u39942" name="metal-mid" endtime="6433" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#accent-yellow_u23021" name="accent-yellow" endtime="6433" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#canister_turbine.011_u61380" name="canister_turbine.011" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" />
+					<Add ref="#metal-bright_u56957" name="metal-bright" endtime="6433" referencedmaterial="#materials/metal-bright_u38764" sourcepath="../materials/metal-bright.materialdef" />
+					<Add ref="#metal-mid_u52809" name="metal-mid" endtime="6433" referencedmaterial="#materials/metal-mid_u16542" sourcepath="../materials/metal-mid.materialdef" />
+					<Add ref="#accent-yellow_u32612" name="accent-yellow" endtime="6433" referencedmaterial="#materials/accent-yellow_u22791" sourcepath="../materials/accent-yellow.materialdef" />
+					<Add ref="#Body_u19858" name="Body" controlledproperty="" endtime="6433" importfile="../models/preFinalEngine/preFinalEngine.import" scale="0.52 0.52 1" />
+					<Add ref="#РђРІС‚РѕР»Р°Рє_u1687" name="РђРІС‚РѕР»Р°Рє" endtime="6433" referencedmaterial="#materials/РђРІС‚РѕР»Р°Рє_u45731" sourcepath="../materials/РђРІС‚РѕР»Р°Рє.materialdef" />
+				</State>
+			</State>
+		</Logic>
+	</Project>
+</UIP>

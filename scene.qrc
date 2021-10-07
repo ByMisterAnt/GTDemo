@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>engineView/materials/accent-yellow.materialdef</file>
+        <file>engineView/materials/metal-bright.materialdef</file>
+        <file>engineView/materials/metal-dark.materialdef</file>
+        <file>engineView/materials/metal-mid.materialdef</file>
+        <file>engineView/materials/plastic-cone-black.materialdef</file>
+        <file>engineView/materials/plastic-grey.materialdef</file>
+        <file>engineView/materials/tile_texture.materialdef</file>
+        <file>engineView/materials/РђРІС‚РѕР»Р°Рє.materialdef</file>
+        <file>engineView/models/preFinalEngine/meshes/blades_turbine.003.mesh</file>
+        <file>engineView/models/preFinalEngine/meshes/Body.mesh</file>
+        <file>engineView/models/preFinalEngine/meshes/canister_turbine.011.mesh</file>
+        <file>engineView/models/preFinalEngine/meshes/grid_turbine.007.mesh</file>
+        <file>engineView/models/preFinalEngine/meshes/hull_turbine.004.mesh</file>
+        <file>engineView/models/preFinalEngine/meshes/mount_turbine.014.mesh</file>
+        <file>engineView/models/preFinalEngine/meshes/pipes_turbine.009.mesh</file>
+        <file>engineView/models/preFinalEngine/meshes/plates_turbine.016.mesh</file>
+        <file>engineView/models/preFinalEngine/preFinalEngine.import</file>
+        <file>engineView/presentations/engineView.uip</file>
+        <file>engineView/engineView.uia</file>
+        <file>engineView/Paper05.png</file>
+        <file>engineView/tile_texture.jpg</file>
+    </qresource>
+</RCC>

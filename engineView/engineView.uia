@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<application xmlns="http://qt.io/qt3dstudio/uia">
+    <assets initial="engineView">
+        <presentation id="engineView" src="presentations/engineView.uip"/>
+        <dataInput metadata="" name="bladesRot" type="Vector3"/>
+        <dataInput metadata="" name="bodyPos" type="Vector3"/>
+        <dataInput metadata="" name="bodyRot" type="Vector3"/>
+        <dataInput metadata="" name="rot" type="Vector3"/>
+        <dataInput metadata="" name="standRot" type="Vector3"/>
+    </assets>
+</application>

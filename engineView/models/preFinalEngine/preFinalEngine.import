@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIP Version="1" >
+	<Project Revision="1" >
+		<Graph >
+			<Group id="__import__root__" >
+				<Light id="Light" name="Light" brightness="100000" castshadow="True" expfade="3000" lightdiffuse="1 1 1 1" lighttype="Point" linearfade="0" orientation="Right Handed" position="145.687 703.784 -352.692" rotation="-145.621 11.1056 88.0817" rotationorder="XYZr" scale="1 1 1" />
+				<Model id="hull_turbine.004" name="hull_turbine.004" orientation="Right Handed" position="0 1.66016 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="meshes/hull_turbine.004.mesh" >
+					<Material id="metal-bright" name="metal-bright" blendmode="Normal" diffuse="0.8 0.743666 0.66253 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="77.2641" />
+					<Material id="metal-mid" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.8756" />
+					<Material id="metal-dark" name="metal-dark" blendmode="Normal" diffuse="0.031064 0.031064 0.031064 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.29" />
+					<Material id="plastic-cone-black" name="plastic-cone-black" blendmode="Normal" diffuse="0.002531 0.002531 0.002531 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="69.9504" />
+					<Material id="plastic-grey" name="plastic-grey" blendmode="Normal" diffuse="0.230102 0.230102 0.230102 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="72.25" />
+					<Material id="accent-yellow" name="accent-yellow" blendmode="Normal" diffuse="1 0.418302 0 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="73.96" />
+				</Model>
+				<Model id="grid_turbine.007" name="grid_turbine.007" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="meshes/grid_turbine.007.mesh" >
+					<Material id="metal-mid_0004" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.8756" />
+					<Material id="metal-dark_0004" name="metal-dark" blendmode="Normal" diffuse="0.031064 0.031064 0.031064 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.29" />
+					<Material id="accent-yellow_0003" name="accent-yellow" blendmode="Normal" diffuse="1 0.418302 0 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="73.96" />
+				</Model>
+				<Model id="pipes_turbine.009" name="pipes_turbine.009" orientation="Right Handed" position="0 0 0" rotation="8.86793e-06 0 0" rotationorder="XYZr" scale="95 95 100" sourcepath="meshes/pipes_turbine.009.mesh" >
+					<Material id="metal-bright_0003" name="metal-bright" blendmode="Normal" diffuse="0.8 0.743666 0.66253 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="77.2641" />
+					<Material id="metal-mid_0007" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.8756" />
+					<Material id="metal-dark_0007" name="metal-dark" blendmode="Normal" diffuse="0.031064 0.031064 0.031064 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.29" />
+				</Model>
+				<Model id="mount_turbine.014" name="mount_turbine.014" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="meshes/mount_turbine.014.mesh" >
+					<Material id="metal-bright_0006" name="metal-bright" blendmode="Normal" diffuse="0.8 0.743666 0.66253 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="77.2641" />
+					<Material id="metal-mid_0010" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.8756" />
+					<Material id="metal-dark_0009" name="metal-dark" blendmode="Normal" diffuse="0.031064 0.031064 0.031064 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.29" />
+				</Model>
+				<Model id="plates_turbine.016" name="plates_turbine.016" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="meshes/plates_turbine.016.mesh" >
+					<Material id="metal-bright_0009" name="metal-bright" blendmode="Normal" diffuse="0.8 0.743666 0.66253 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="77.2641" />
+					<Material id="metal-mid_0014" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.8756" />
+					<Material id="metal-dark_0012" name="metal-dark" blendmode="Normal" diffuse="0.031064 0.031064 0.031064 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.29" />
+					<Material id="accent-yellow_0006" name="accent-yellow" blendmode="Normal" diffuse="1 0.418302 0 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="73.96" />
+				</Model>
+				<Model id="blades_turbine.003" name="blades_turbine.003" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="meshes/blades_turbine.003.mesh" >
+					<Material id="metal-bright_0011" name="metal-bright" blendmode="Normal" diffuse="0.8 0.743666 0.66253 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="77.2641" />
+					<Material id="metal-mid_0018" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.8756" />
+					<Material id="accent-yellow_0008" name="accent-yellow" blendmode="Normal" diffuse="1 0.418302 0 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="73.96" />
+				</Model>
+				<Model id="canister_turbine.011" name="canister_turbine.011" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="meshes/canister_turbine.011.mesh" >
+					<Material id="metal-bright_0013" name="metal-bright" blendmode="Normal" diffuse="0.8 0.743666 0.66253 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="77.2641" />
+					<Material id="metal-mid_0020" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.8756" />
+					<Material id="accent-yellow_0010" name="accent-yellow" blendmode="Normal" diffuse="1 0.418302 0 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="73.96" />
+				</Model>
+				<Model id="screws_turbine.001" name="screws_turbine.001" orientation="Right Handed" position="0 0 0" rotation="9.33467e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="meshes/screws_turbine.001.mesh" >
+					<Material id="metal-mid_0023" name="metal-mid" blendmode="Normal" diffuse="0.195989 0.195989 0.195989 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="53.8756" />
+				</Model>
+				<Model id="Body" name="Body" orientation="Right Handed" position="-185.676 55.404 0" rotation="0 -90 9.33467e-06" rotationorder="XYZr" scale="0.5 0.5 1" sourcepath="meshes/Body.mesh" >
+					<Material id="РђРІС‚РѕР»Р°Рє" name="РђРІС‚РѕР»Р°Рє" blendmode="Normal" diffuse="0 0 0 1" emissivepower="0" opacity="100" specularamount="0" specularroughness="100" />
+				</Model>
+			</Group>
+		</Graph>
+		<Import SrcFile="../../../../modelsForApps/preFinalEngine.fbx" ImageDir="maps" MeshDir="meshes" >
+			<Mesh >
+				<Source >canister_turbine.011</Source>
+				<Dest >meshes/canister_turbine.011.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >blades_turbine.003</Source>
+				<Dest >meshes/blades_turbine.003.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >plates_turbine.016</Source>
+				<Dest >meshes/plates_turbine.016.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >Body</Source>
+				<Dest >meshes/Body.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >pipes_turbine.009</Source>
+				<Dest >meshes/pipes_turbine.009.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >screws_turbine.001</Source>
+				<Dest >meshes/screws_turbine.001.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >hull_turbine.004</Source>
+				<Dest >meshes/hull_turbine.004.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >grid_turbine.007</Source>
+				<Dest >meshes/grid_turbine.007.mesh</Dest>
+			</Mesh>
+			<Mesh >
+				<Source >mount_turbine.014</Source>
+				<Dest >meshes/mount_turbine.014.mesh</Dest>
+			</Mesh>
+		</Import>
+	</Project>
+</UIP>
