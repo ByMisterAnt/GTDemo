@@ -1,6 +1,8 @@
 #include <QtWidgets/QApplication>
 #include <QtQuick/QQuickView>
+//switch when build portable version
 #include <QtStudio3D/qstudio3dglobal.h>
+//#include <qstudio3dglobal.h>
 
 int main(int argc, char *argv[])
 {
